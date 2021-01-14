@@ -1,36 +1,30 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: '🐛 Bug report'
+name: 🐛 Bug report
+about: If something isn't working as expected
 
 ---
 
-**Description**
-A clear and concise description of what the bug is.
+### New Issue Checklist
 
-**To Reproduce**
+- [ ] I read the [FAQ](https://devcenter.bitrise.io/faq/faq-index/)
+- [ ] I read [devcenter.bitrise.io](https://devcenter.bitrise.io/)
+
+### Issue description
+_A clear and concise description of what the bug is. Please make sure you share the expacted behaviour._
+
+| Question                                           | Answer            |
+| :---                                               | :----             |
+| Which version of the step is effected?             | _1.2.3_           |
+| Is the issue reproducible with the latest version? | _YES/NO_          |
+| Does the issue happen sporadically, or every time? | _SPORADIC/STABLE_ |
+
+### Build logs
+Please share the build url URL with us, follow [how to enable Bitrise support](https://devcenter.bitrise.io/troubleshooting/enabling-bitrise-support-user/) for more info.
+
+### Steps to reproduce
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. ...
+2. ...
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+### Local reproduction
+Can it be reproduced locally by following our [local debug guide](https://devcenter.bitrise.io/troubleshooting/debugging-your-build-on-your-own-machine/)?
