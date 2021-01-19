@@ -16,13 +16,13 @@ You can find out more on the [devcenter.](https://devcenter.bitrise.io/contribut
 
 ### Fixing bugs
 
-If you have found a bug that you would like to fix please follow the process below.
+Fixing a simple bug is a great way of starting contributing code to Bitrise. If you have found a bug that you would like to fix please follow the process below.
 
 1. Create an [Issue](${step_repo_url}/issues/new/choose)
 1. Read the [Coding Guideline](#coding-guideline)
 1. Open a [Pull Request](${step_repo_url}/pulls/new)
 
-You can also check [Github issues](${step_repo_url}/issues) and [discuss](https://discuss.bitrise.io/) for any open bug that you can contribute to.
+You can also check [Github issues](${step_repo_url}/issues) and [discuss](https://discuss.bitrise.io/) for open bugs that you can contribute to.
 
 ### 🚧 Adding features
 
