@@ -26,14 +26,14 @@ You can also check [Github issues](${step_repo_url}/issues) and [discuss](https:
 
 ### 🚧 Adding features
 
-We have always been very greatful to community contributions that enhance our steps and this has not changed. Currently we are working on providing a better environment for your features to be added. We will update our contribution guide once we are ready again to accept your ideas.
+We have always been very grateful for community contributions that enhance our steps and this has not changed. Currently we are working on providing a better environment for your features to be added. We will update our contribution guide once we are ready again to accept your ideas.
 
-In the mean time, please feel free to share your feature ideas on [discuss](https://discuss.bitrise.io/).
+In the mean time, please feel free to share your feature ideas on [discuss](https://discuss.bitrise.io/c/feature-request).
 
-### 🚧 Coding Guideline
+### Coding Guideline
 
-_Currently under construction and will be updated in the future._
+🚧 _**Currently under construction and will be updated in the future**. The guide is only applicable for Go based steps.  Please follow to conventions of the existing code for Ruby and Bash based steps._
 
 This section is intended to describe the coding conventions applied for the step. Please refer to it when contributing code to the repository.
 
-Our single guide currently is to apply [effective go](https://golang.org/doc/effective_go.html), which has a great number of tips on writing clear, idiomatic Go code.
+Our single guide currently is to apply [Effective Go](https://golang.org/doc/effective_go.html), which has a great number of tips on writing clear, idiomatic Go code.
