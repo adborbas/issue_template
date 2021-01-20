@@ -24,7 +24,9 @@ Fixing a simple bug is a great way of starting contributing code to Bitrise. If 
 
 You can also check [Github issues](${step_repo_url}/issues) and [discuss](https://discuss.bitrise.io/) for open bugs that you can contribute to.
 
-### 🚧 Adding features
+### Adding features
+
+🚧 _Currently under construction and will be updated in the future._
 
 We have always been very grateful for community contributions that enhance our steps and this has not changed. Currently we are working on providing a better environment for your features to be added. We will update our contribution guide once we are ready again to accept your ideas.
 
@@ -32,7 +34,7 @@ In the mean time, please feel free to share your feature ideas on [discuss](http
 
 ### Coding Guideline
 
-🚧 _**Currently under construction and will be updated in the future**. The guide is only applicable for Go based steps.  Please follow to conventions of the existing code for Ruby and Bash based steps._
+🚧 _Currently under construction and will be updated in the future. The guide is only applicable for Go based steps. Please follow to conventions of the existing code for Ruby and Bash based steps._
 
 This section is intended to describe the coding conventions applied for the step. Please refer to it when contributing code to the repository.
 
