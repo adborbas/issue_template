@@ -1,0 +1,27 @@
+name: 'Close stale issues and PRs'
+on:
+  schedule:
+    - cron: '30 1 * * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v3
+        with:
+          # The message to post on the issue when tagging it. If none provided, will not mark issues stale.
+          stale-issue-message: "Issue is stale"
+          # The message to post on the issue when closing it. If none provided, will not comment when closing an issue.
+          close-issue-message: "Issue is closed due to inactivity"
+          # The number of days old an issue can be before marking it stale. Set to -1 to never mark issues as stale automatically. Override "days-before-stale" option regarding only the issues.
+          days-before-issue-stale: 1
+          # The number of days to wait to close an issue after it being marked stale. Set to -1 to never close stale issues. Override "days-before-close" option regarding only the issues.
+          days-before-issue-close: 1
+          # The label to apply when an issue is stale.
+          stale-issue-label: stale
+          # The maximum number of operations per run, used to control rate limiting (GitHub API CRUD related).
+          operations-per-run: 30 # optional, default is 30
+          # Remove stale labels from issues when they are updated or commented on.
+          remove-stale-when-updated: true # optional, default is true
+          # The date used to skip the stale action on issue/pr created before it (ISO 8601 or RFC 2822).
+          start-date: '2021-01-25'
